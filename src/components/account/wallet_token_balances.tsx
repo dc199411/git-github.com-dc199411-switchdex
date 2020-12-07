@@ -355,9 +355,9 @@ class WalletTokenBalances extends React.PureComponent<Props, State> {
                         <Button onClick={openTransferEthModal} variant={ButtonVariant.Primary}>
                             Send
                         </Button>
-                        <BuyETHButton onClick={openFiatOnRamp} variant={ButtonVariant.Buy}>
+                        {/*<BuyETHButton onClick={openFiatOnRamp} variant={ButtonVariant.Buy}>
                             Buy
-                        </BuyETHButton>
+                            </BuyETHButton> */}
                     </ButtonsContainer>
                 </CustomTD>
             </TR>

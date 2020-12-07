@@ -226,9 +226,9 @@ const ToolbarContent = (props: Props) => {
         endOptContent = (
             <>
                 {/*  <SettingsContentContainer  className={'settings-dropdown'} /> */}
-                <StyledButton onClick={handleTransakModal} className={'buy-fiat'}>
+               {/*  <StyledButton onClick={handleTransakModal} className={'buy-fiat'}>
                     FIAT
-                </StyledButton>
+                </StyledButton>*/}
                 <StyledLink href="/defi" onClick={handleDefiClick} className={'defi'}>
                     DeFi
                 </StyledLink>
@@ -236,7 +236,7 @@ const ToolbarContent = (props: Props) => {
                     Swap
                 </StyledLink>
                 <SettingsDropdownContainer className={'settings-dropdown'} />
-                <StyledButton onClick={handleFiatModal} className={'buy-eth'}>
+               {/* <StyledButton onClick={handleFiatModal} className={'buy-eth'}>
                     Buy ETH
                 </StyledButton>
                 {isEnableFiat && (
@@ -245,7 +245,7 @@ const ToolbarContent = (props: Props) => {
                         tokenSymbol={(baseToken && baseToken.symbol.toUpperCase()) || 'ETH'}
                         onClose={onCloseTransakModal}
                     />
-                )}
+                )}*/}
             </>
         );
 

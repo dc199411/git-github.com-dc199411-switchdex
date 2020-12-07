@@ -2,7 +2,7 @@ import React, { HTMLAttributes } from 'react';
 import Modal from 'react-modal';
 import styled, { withTheme } from 'styled-components';
 
-import { ReactComponent as RedExclamationSign } from '../../assets/icons/red_exclamation_sign.svg';
+// import { ReactComponent as RedExclamationSign } from '../../assets/icons/red_exclamation_sign.svg';
 import { LocalStorage } from '../../services/local_storage';
 import { Theme } from '../../themes/commons';
 
@@ -102,7 +102,7 @@ class AdBlockDetectorContainer extends React.Component<Props, State> {
                 <ModalContent>
                     <ModalTitle>Ad Blocker Detected</ModalTitle>
                     <IconContainer>
-                        <RedExclamationSign />
+                      {/*  <RedExclamationSign />*/}
                     </IconContainer>
                     <ModalText>This dApp may not work correctly with your ad blocker enabled</ModalText>
                 </ModalContent>
